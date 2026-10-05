@@ -11,7 +11,7 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe({ whitelist: true, transform: true }));
 
   const swagger = new DocumentBuilder()
-    .setTitle('hr-test')
+    .setTitle('callback-ingest-nestjs')
     .setDescription('identity + PSP/GSP callback ingestion')
     .setVersion('0.1')
     .addBearerAuth()

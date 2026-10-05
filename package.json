@@ -1,5 +1,5 @@
 {
-  "name": "hr-test",
+  "name": "callback-ingest-nestjs",
   "version": "0.1.0",
   "description": "Test assignment: identity + PSP/GSP callback ingestion",
   "private": true,
